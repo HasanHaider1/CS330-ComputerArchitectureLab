@@ -1,0 +1,32 @@
+NET "q[4]" IOSTANDARD = LVCMOS25;
+NET "q[4]" DRIVE = 12;
+NET "q[4]" SLEW = SLOW;
+NET "q[3]" IOSTANDARD = LVCMOS25;
+NET "q[3]" DRIVE = 12;
+NET "q[3]" SLEW = SLOW;
+NET "q[2]" IOSTANDARD = LVCMOS25;
+NET "q[2]" DRIVE = 12;
+NET "q[2]" SLEW = SLOW;
+NET "q[1]" IOSTANDARD = LVCMOS25;
+NET "q[1]" DRIVE = 12;
+NET "q[1]" SLEW = SLOW;
+NET "q[0]" IOSTANDARD = LVCMOS25;
+NET "q[0]" DRIVE = 12;
+NET "q[0]" SLEW = SLOW;
+NET "clk" IOSTANDARD = LVCMOS25;
+NET "reset" IOSTANDARD = LVCMOS25;
+NET "rx" IOSTANDARD = LVCMOS25;
+NET "tx" IOSTANDARD = LVCMOS25;
+NET "tx" DRIVE = 12;
+NET "tx" SLEW = SLOW;
+
+# PlanAhead Generated physical constraints 
+
+NET "q[0]" LOC = P4;
+NET "q[1]" LOC = L6;
+NET "q[2]" LOC = F5;
+NET "q[3]" LOC = C2;
+NET "reset" LOC = A4;
+NET "clk" LOC = V10;
+NET "rx" LOC = R7;
+NET "tx" LOC = T7;
