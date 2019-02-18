@@ -1,8 +1,8 @@
 #Compiling design modules
-vlog tb2.v immediate_data_extractor
+vlog tb2.v immediate_data_extractor.v
 
 #no optimization
-vsim -novopt work.tb
+vsim -novopt work.tb2
 
 #view waves
 view wave
