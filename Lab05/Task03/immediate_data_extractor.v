@@ -14,3 +14,4 @@ module immediate_data_extractor(instruction, imm_data);
 			imm_data <= {{52{instruction[31]}},instruction[31], instruction[7], instruction[30:25], instruction[11:8]};
 			
 	end
+endmodule
